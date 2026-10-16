@@ -1,0 +1,25 @@
+{
+  "best_model": "MLP(Adam)",
+  "test_metrics": {
+    "model": "MLP(Adam)",
+    "cv_acc": 0.9753999999999999,
+    "cv_f1": 0.9750911141865185,
+    "cv_recall": 0.9696906022073994,
+    "accuracy": 0.9794673043621671,
+    "precision": 0.984161387129043,
+    "recall(sensitivity)": 0.9745748720488691,
+    "specificity": 0.984349258649094,
+    "f1": 0.9793446702613023,
+    "roc_auc": 0.9954130434132197,
+    "MSE": 0.016801489549892995,
+    "RMSE": 0.1296205599042567,
+    "TP": 5903,
+    "FP": 95,
+    "TN": 5975,
+    "FN": 154
+  },
+  "pca_components_95": 16,
+  "kmeans_purity": 0.7026,
+  "dbscan_outlier_fraction": 0.03335,
+  "n_samples": 60634
+}

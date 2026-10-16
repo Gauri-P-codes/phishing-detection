@@ -1,0 +1,6 @@
+if,then,support,confidence,lift
+"n_subdomains=HIGH, path_depth=HIGH",PHISHING,0.236,0.927,1.84
+"host_entropy=HIGH, path_depth=HIGH",PHISHING,0.241,0.916,1.82
+"n_subdomains=HIGH, url_len=HIGH",PHISHING,0.253,0.9,1.79
+"host_entropy=HIGH, n_subdomains=HIGH",PHISHING,0.233,0.879,1.75
+"path_depth=HIGH, url_len=HIGH",PHISHING,0.293,0.862,1.71

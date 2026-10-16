@@ -1,0 +1,5 @@
+algorithm,score,n_features,evals_so_far,sec,selected
+HillClimbing,0.941,5,334,16.9,"url_len, path_len, digit_ratio, n_params, is_https"
+SimulatedAnnealing,0.9405,5,440,5.5,"url_len, path_len, query_len, n_digits, is_https"
+BeamSearch(w=3),0.941,5,1038,28.0,"url_len, path_len, digit_ratio, n_params, is_https"
+TabuSearch,0.9407,5,1565,36.2,"url_len, path_len, n_digits, n_params, is_https"
